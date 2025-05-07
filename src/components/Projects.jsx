@@ -12,8 +12,8 @@ const projects = [
   },
   {
     title: "School Management system",
-    description: "",
-    tags: ["Next.js", "GraphQL", "Framer Motion"],
+    description: "This block of code is designed to manage the process of sending out fee payment reminders. It starts by connecting to the database to identify which pending fees have received the fewest reminders so far. This ensures that reminders are sent out in a fair, round-robin fashion. Once these specific fee records are fetched, the code prepares to iterate through them to actually send the reminders, while also being ready to handle any database-related errors that might occur. It also sets up some initial variables to keep track of the date and how many reminders are processed and sent.",
+    tags: ["Python", "Flask", "MySql","ReactJS"],
     githubUrl: "https://github.com/Nithingowdabk/school_management",
     imageUrl: "src/assets/school.webp",
   },
