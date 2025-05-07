@@ -7,15 +7,15 @@ const projects = [
     "title": "Intruder Detection and Alerting System",
     "description": "A machine learning-based system that detects intruders using computer vision, recognizes known faces, and sends alerts via Telegram.",
     "tags": ["Python", "OpenCV", "Machine Learning", "Computer Vision", "Flask"],
-    "githubUrl": "https://github.com/NithinGowda/intruder-detection-and-alerting-system",
-    "imageUrl": "https://i.ibb.co/Vr5HTdM/intruder.jpg"
+    "githubUrl": "https://github.com/Nithingowdabk/Village-Seva-ChatBot",
+    "imageUrl": "src/assets/chatbot.webp"
   },
   {
-    title: "Project 2",
-    description: "A brief description of Project 2",
+    title: "School Management system",
+    description: "",
     tags: ["Next.js", "GraphQL", "Framer Motion"],
-    githubUrl: "https://github.com/yourusername/project2",
-    imageUrl: "/placeholder.svg?height=400&width=600",
+    githubUrl: "https://github.com/Nithingowdabk/school_management",
+    imageUrl: "src/assets/school.webp",
   },
   {
     title: "Project 3",

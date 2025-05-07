@@ -6,6 +6,7 @@ import SkillsComponent from "./Skills";
 import EducationComponent from "./Education";
 import ProjectsComponent from "./Projects";
 import ContactComponent from "./Contact";
+import profilePhoto from '../assets/profile.jpg'; // Import the profile photo
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("Home");
@@ -68,7 +69,7 @@ export default function Portfolio() {
         {/* Profile Section */}
         <div className="mt-5 flex flex-col items-center">
           <img
-            src="../assets/profile.jpg"
+            src={profilePhoto} // Use the imported profile photo
             alt="Profile"
             className={`w-24 h-24 md:w-28 md:h-28 rounded-full border-2 border-gray-400 object-cover transition-all duration-500
               ${isSidebarOpen ? "block" : "hidden"}`}
