@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Github } from "lucide-react";
+import chatbotImageUrl from '../assets/chatbot.webp';
+import schoolImageUrl from '../assets/school.webp';
 
 const projects = [
   {
@@ -8,14 +10,14 @@ const projects = [
     "description": "A machine learning-based system that detects intruders using computer vision, recognizes known faces, and sends alerts via Telegram.",
     "tags": ["Python", "OpenCV", "Machine Learning", "Computer Vision", "Flask"],
     "githubUrl": "https://github.com/Nithingowdabk/Village-Seva-ChatBot",
-    "imageUrl": "src/assets/chatbot.webp"
+    "imageUrl": chatbotImageUrl
   },
   {
     title: "School Management system",
     description: "This block of code is designed to manage the process of sending out fee payment reminders. It starts by connecting to the database to identify which pending fees have received the fewest reminders so far. This ensures that reminders are sent out in a fair, round-robin fashion. Once these specific fee records are fetched, the code prepares to iterate through them to actually send the reminders, while also being ready to handle any database-related errors that might occur. It also sets up some initial variables to keep track of the date and how many reminders are processed and sent.",
     tags: ["Python", "Flask", "MySql","ReactJS"],
     githubUrl: "https://github.com/Nithingowdabk/school_management",
-    imageUrl: "src/assets/school.webp",
+    imageUrl: schoolImageUrl,
   },
 ];
 
