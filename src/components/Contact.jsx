@@ -64,16 +64,16 @@ const Contact = () => {
             textColor="text-white"
           />
           <ContactLink
-            href="mailto:nithinkempegowda2003@GMAIL.COM"
+            href="mailto:nithinkempegowda2003@gmail.com"
             icon={FaEnvelope}
-            text="nithinkempegowda2003@GMAIL.COM"
+            text="nithinkempegowda2003@gmail.com"
             bgColor="bg-red-500"
             textColor="text-white"
           />
           <ContactLink
-            href="https://linkedin.com/in/NithinGowda"
+            href="https://www.linkedin.com/in/nithingowdabk"
             icon={FaLinkedin}
-            text="NITHINGOWDA"
+            text="NITHINGOWDABK"
             bgColor="bg-blue-700"
             textColor="text-white"
           />

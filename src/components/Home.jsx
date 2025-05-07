@@ -98,7 +98,7 @@ const Home = () => {
             className="flex flex-wrap gap-4 justify-center"
           >
             <AnimatedButton
-              onClick={() => window.open("https://www.linkedin.com/in/NithinGowda", "_blank")}
+              onClick={() => window.open("https://www.linkedin.com/in/nithingowdabk", "_blank")}
               className="w-14 h-14 bg-white text-[#0077b5] rounded-full hover:bg-[#0077b5] hover:text-white transition duration-300 flex items-center justify-center"
             >
               <FontAwesomeIcon icon={faLinkedin} size="2x" />

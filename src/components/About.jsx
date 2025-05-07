@@ -56,8 +56,8 @@ const About = () => {
             <div className="bg-white rounded-lg shadow-lg p-6">
               <h2 className="text-2xl font-bold mb-4">My Journey</h2>
               <p className="text-gray-700">
-                With experience in hackathons, coding clubs, and hands-on projects like the "Intruder Detection and 
-                Alerting System," I've gained a deep understanding of AI, web development, and cloud computing. 
+                With experience in hackathons, coding clubs, and hands-on projects like the "Village Seva ChatBot","School Management","Image Recognition"
+                I've gained a deep understanding of AI, web development, and cloud computing. 
                 I'm also building projects like a pet care app and a civic issue reporting platform, aiming to solve 
                 real-world problems.
               </p>

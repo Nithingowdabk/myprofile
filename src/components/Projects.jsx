@@ -3,12 +3,13 @@ import { motion } from "framer-motion";
 import { Github } from "lucide-react";
 import chatbotImageUrl from '../assets/chatbot.webp';
 import schoolImageUrl from '../assets/school.webp';
+import imgRecImageUrl from '../assets/img_rec.jpg';
 
 const projects = [
   {
     "title": "village seva chatbot",
-    "description": "A machine learning-based system that detects intruders using computer vision, recognizes known faces, and sends alerts via Telegram.",
-    "tags": ["Python", "OpenCV", "Machine Learning", "Computer Vision", "Flask"],
+    "description": "Village Seva is an AI-powered multilingual chatbot designed to empower rural communities by simplifying access to government schemes, services, and vital information. This smart assistant bridges the gap between local language speakers and digital resources by translating native language queries into English, processing them, and delivering responses in the user's preferred language.",
+    "tags": ["Python", "AIChatBot", "Machine Learning", "Computer Vision", "Flask",],
     "githubUrl": "https://github.com/Nithingowdabk/Village-Seva-ChatBot",
     "imageUrl": chatbotImageUrl
   },
@@ -18,6 +19,13 @@ const projects = [
     tags: ["Python", "Flask", "MySql","ReactJS"],
     githubUrl: "https://github.com/Nithingowdabk/school_management",
     imageUrl: schoolImageUrl,
+  },
+  {
+    "title": "Image Classifaction using CIFAR-10",
+    "description": "This project is an AI-powered multilingual chatbot designed to empower rural communities by simplifying access to government schemes, services, and vital information. This smart assistant bridges the gap between local language speakers and digital resources by translating native language queries into English, processing them, and delivering responses in the user's preferred language. It uses Python, AIChatBot, Machine Learning, Computer Vision, and Flask.",
+    "tags": ["Python", "Machine Learning", "Deep Learning", "Computer Vision", "TensorFlow", "Keras", "CIFAR-10"],
+    "githubUrl": "https://github.com/Nithingowdabk/image-recognition",
+    "imageUrl": imgRecImageUrl
   },
 ];
 
