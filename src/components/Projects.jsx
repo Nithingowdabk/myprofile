@@ -4,7 +4,7 @@ import { Github } from "lucide-react";
 
 const projects = [
   {
-    "title": "Intruder Detection and Alerting System",
+    "title": "village seva chatbot",
     "description": "A machine learning-based system that detects intruders using computer vision, recognizes known faces, and sends alerts via Telegram.",
     "tags": ["Python", "OpenCV", "Machine Learning", "Computer Vision", "Flask"],
     "githubUrl": "https://github.com/Nithingowdabk/Village-Seva-ChatBot",
