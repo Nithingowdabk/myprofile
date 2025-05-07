@@ -20,6 +20,6 @@ function copyCNAME() {
 }
 
 export default defineConfig({
-  base: '/',
+  base: '/myprofile',
   plugins: [react(), tailwindcss(), copyCNAME()],
 })
