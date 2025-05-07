@@ -18,7 +18,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     const message = e.target.message.value
-    window.location.href = `mailto:your.email@gmail.com?subject=Portfolio Contact&body=${encodeURIComponent(message)}`
+    window.location.href = `mailto:nithinkempegowda2003@gmail.com?subject=Portfolio Contact&body=${encodeURIComponent(message)}`
   }
 
   return (
