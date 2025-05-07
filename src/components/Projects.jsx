@@ -36,7 +36,7 @@ export default function ProjectsPage() {
             >
               <div className="h-full overflow-hidden transition-shadow hover:shadow-lg bg-white rounded-2xl border border-gray-300">
                 {/* White Blur Effect on Hover */}
-                <div className="absolute inset-0 bg-white bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 rounded-2xl backdrop-blur-md">
+                <div className="absolute inset-0 bg-white bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 rounded-2xl">
                   <button
                     className="bg-black text-white px-4 py-2 rounded-xl hover:bg-gray-800 flex items-center text-xs sm:text-sm md:text-base cursor-pointer"
                     onClick={() => window.open(project.githubUrl, "_blank")}
@@ -47,7 +47,7 @@ export default function ProjectsPage() {
                   </button>
                 </div>
 
-                <div className="group-hover:blur-sm transition-all duration-300 rounded-2xl">
+                <div className="transition-all duration-300 rounded-2xl">
                   <div className="relative h-48 w-full">
                     <img src={project.imageUrl} alt={project.title} className="w-full h-full object-cover rounded-t-2xl" />
                   </div>
