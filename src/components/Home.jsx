@@ -23,7 +23,7 @@ const Home = () => {
   const [isTypingComplete, setIsTypingComplete] = useState(false)
   const [showRotatingText, setShowRotatingText] = useState(false)
   const [showButtons, setShowButtons] = useState(false)
-  const fullText = "Hi, I'm NithinGowda."
+  const fullText = "Hi, I'm Nithin Gowda B K"
 
   useEffect(() => {
     let index = 0

@@ -17,13 +17,6 @@ const projects = [
     githubUrl: "https://github.com/Nithingowdabk/school_management",
     imageUrl: "src/assets/school.webp",
   },
-  {
-    title: "Project 3",
-    description: "A brief description of Project 3",
-    tags: ["React Native", "Expo", "Firebase"],
-    githubUrl: "https://github.com/yourusername/project3",
-    imageUrl: "/placeholder.svg?height=400&width=600",
-  },
 ];
 
 export default function ProjectsPage() {
