@@ -88,7 +88,7 @@ export default function Portfolio() {
             icon={<FileText />}
             text="Resume"
             isOpen={isSidebarOpen}
-            onClick={() => window.open("https://drive.google.com/file/d/1q9F0qeTjiqkXPLKpvDOUGt1nBY0YYwOI/view?usp=drive_link", "_blank")}
+            onClick={() => window.open("https://drive.google.com/file/d/1TktrjG_oKxBwIyrsC9WRsAXnMJw6QfAE/view?usp=drive_link", "_blank")}
           />
         </div>
       </div>
