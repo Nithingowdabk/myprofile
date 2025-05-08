@@ -77,6 +77,7 @@ const Contact = () => {
             bgColor="bg-blue-700"
             textColor="text-white"
           />
+    
         </div>
       </div>
     </motion.div>

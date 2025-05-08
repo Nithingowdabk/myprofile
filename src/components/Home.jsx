@@ -110,7 +110,7 @@ const Home = () => {
               <FontAwesomeIcon icon={faGithub} size="2x" />
             </AnimatedButton>
             <AnimatedButton
-              onClick={() => window.open("https://drive.google.com/file/d/18L8OpxRcjZowjOyzVnQldmfZA9PSPAoN/view?usp=drive_link", "_blank")}
+              onClick={() => window.open("https://drive.google.com/file/d/1q9F0qeTjiqkXPLKpvDOUGt1nBY0YYwOI/view?usp=drive_link", "_blank")}
               className="w-14 h-14 bg-white text-gray-700 rounded-full hover:bg-gray-700 hover:text-white transition duration-300 flex items-center justify-center"
             >
               <FontAwesomeIcon icon={faFileAlt} size="2x" />
